@@ -9,7 +9,8 @@
 }
 
 body {
-  margin: 90px 120px;
+  width: 1110px;
+  margin: 90px auto;
 }
 .header {
   color: #3a3a3a;
@@ -76,4 +77,14 @@ body {
   position: absolute;
   top: 30px;
   left: 2px;
+}
+
+.brand {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 35px 60px;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
 }
