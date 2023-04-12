@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 90px 120px;
+}
+.header {
+  color: #3a3a3a;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.nav-title {
+  font-weight: 700;
+}
+.header nav ul {
+  display: flex;
+  gap: 34px;
+}
+
+.nav-link a {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+/* ------------------
+--- header-banner ---
+-------------------*/
+.banner {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  width: 582px;
+  font-weight: 700;
+  font-size: 52px;
+}
+.banner-sub-title {
+  width: 505px;
+  margin: 16px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.banenr-btn {
+  background: #e02c6d;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  padding: 10px 24px;
+  border-radius: 40px;
+}
+.banner-img {
+  position: relative;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-img {
+  width: 475px;
+  height: 475px;
+}
+.banner-img img {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+}
