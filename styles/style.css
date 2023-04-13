@@ -8,7 +8,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
+header,
+main {
   width: 1110px;
   margin: 90px auto;
 }
@@ -192,4 +193,47 @@ body {
   padding: 10px 24px;
   background: #e02c6d;
   border: 0;
+}
+
+/* ---------------
+----- footer -----
+---------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  background: #0a0826;
+  padding: 50px 0;
+}
+.footer-title {
+  font-size: 24px;
+  line-height: 36px;
+}
+.copyright {
+  color: #d9dbe1;
+  font-family: "Manrope";
+  font-size: 14px;
+}
+.social-icon {
+  display: flex;
+  gap: 16px;
+  margin-top: 17px;
+}
+
+.social-icon li {
+  height: 32px;
+  width: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  border-radius: 50%;
+}
+.social-icon i {
+  color: #ffffff;
+  font-size: 17px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
 }
